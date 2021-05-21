@@ -1,0 +1,107 @@
+.navegacion{
+    width: 1000px;
+    margin: 30px auto;
+    background: #34495e;
+}
+.navegacion ul{
+    list-style: none;
+}
+.menu > li{
+    display: inline-block;
+}
+
+.menu > li >a{
+    display: block;
+    padding: 15px 20px;
+    color: #c7b9b9;
+    font-family: fantasy;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    color: #ce7d35;
+    transition: all .3s;
+}
+
+
+/*sumenu*/
+
+.submenu{
+    position: absolute;
+    background: #333333;
+    width: 10%;
+    visibility: hidden;
+    opacity: 0px;
+    transition: opacity 1.5s;
+
+}
+
+.submenu li a{
+    display: block;
+    padding: 15px;
+    color: #fff;
+    font-family: fantasy;
+    text-decoration: none;
+}
+
+.menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+}       
+
+header{
+    background: #2c3e50;
+    color: #fff;
+}
+
+.main{
+    background: #f2f2f2;
+
+}
+
+.color1{
+    background: #34495e;
+    color: #fff;
+}
+
+aside{
+    background: #c0392b;
+}
+
+.footer{
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgb(161, 89, 230);
+}
+/*social*/
+
+.footer .social{
+    margin: 50px;
+}
+.footer .social p{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    
+}
+.footer .links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.footer .links a{
+    margin: 0 30px ;
+    
+}
+
+.footer .links a i{
+    font-size: 3rem;
+    color: #fff;
+    
+    
+}
+
